@@ -17,7 +17,6 @@ const Main = () => {
         const newCart = [...cart, ceo]
         setCart(newCart)
     }
-	const cartName = cart.map(n=>n.name)
 
 	return (
 		<div className='main'>
@@ -27,7 +26,6 @@ const Main = () => {
 				))}
 			</div>
 			<div className='cart'>
-				{/* <h3>Your Pick: {cart.length} </h3> */}
 				<Cart cart={cart}></Cart>
 			</div>
 		</div>

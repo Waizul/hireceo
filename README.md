@@ -1,6 +1,6 @@
 Hire famous CEOs
 
-link: 
+link: https://competent-dubinsky-25cab8.netlify.app/
 
 Feature:
         1. look for ceos
