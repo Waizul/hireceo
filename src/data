@@ -1,0 +1,115 @@
+
+const ceo = [
+{
+  id:1,
+  name : 'Sundar Pichai',
+  img: 'https://upload.wikimedia.org/wikipedia/commons/d/d6/Sundar_pichai.png',
+  company: 'Google',
+  age: 49,
+  country: 'india',
+  salary: 1000000
+},
+{
+   id:2,
+  name: 'Elon Musk',
+  img:'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg/220px-Elon_Musk_Royal_Society_%28crop1%29.jpg',
+  company: 'Tesla & SpaceX',
+  age: 50,
+  country: 'USA',
+  salary: 1200000
+},
+{
+   id:3,
+  name: 'Satya Nadella',
+  img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/MS-Exec-Nadella-Satya-2017-08-31-22_%28cropped%29.jpg/220px-MS-Exec-Nadella-Satya-2017-08-31-22_%28cropped%29.jpg',
+  company: 'Microsoft',
+  age:54,
+  country: 'india' ,
+  salary: 1100000
+},
+{
+   id:4,
+  name : ' Jeff Bezos',
+  img:'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg/220px-Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg',
+  company: 'Amazon',
+  age: 57,
+  Country: 'USA',
+  salary: 1300000
+},
+{
+   id:5,
+  name : ' Daniel Zhang',
+  img:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nationthailand.com%2Fnoname%2F30396448%3Futm_source%3Dcategory%26utm_medium%3Dinternal_referral&psig=AOvVaw0clGkANPMwkikFSJ71oyLz&ust=1632681365024000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjCopjimvMCFQAAAAAdAAAAABAJ',
+  company: 'Alibaba',
+  age: 49,
+  Country: 'China',
+  salary: 900000
+},
+{
+   id:6,
+  name : 'Mark Zuckerberg',
+  img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Mark_Zuckerberg_F8_2019_Keynote_%2847721886632%29_%28cropped%29.jpg/220px-Mark_Zuckerberg_F8_2019_Keynote_%2847721886632%29_%28cropped%29.jpg',
+  company: 'Facebook',
+  age: 37,
+  Country: 'USA',
+  salary: 1000000
+},
+{
+   id:7,
+  name : 'Lakshmi Mittal',
+  img:  'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Lakshmi_Mittal_LM.jpg/220px-Lakshmi_Mittal_LM.jpg',
+  company: 'Arcelor Mittal',
+  age: 71,
+  Country: 'India',
+  salary: 700000
+},
+{
+   id:8,
+  name : ' Indra Nooyi',
+  img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/IndraNooyiDavos2010ver2.jpg/220px-IndraNooyiDavos2010ver2.jpg',
+  company: ' PepsiCo',
+  age: 65,
+  Country: 'India',
+  salary: 800000
+},
+{
+   id:9,
+  name : 'Warren Buffett',
+  img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Warren_Buffett_with_Fisher_College_of_Business_Student_-_4395161160_%28cropped%29.jpg/220px-Warren_Buffett_with_Fisher_College_of_Business_Student_-_4395161160_%28cropped%29.jpg',
+  company:  ' Berkshire Hathaway',
+  age:  91,
+  Country:  'USA',
+  salary:1200000
+},
+{
+   id:10,
+  name : 'Tim Cook',
+  img:'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/%D0%A2%D0%B8%D0%BC_%D0%9A%D1%83%D0%BA_%2802-09-2021%29.jpg/220px-%D0%A2%D0%B8%D0%BC_%D0%9A%D1%83%D0%BA_%2802-09-2021%29.jpg',
+  company: 'Apple',
+  age: 60,
+  Country: 'USA',
+  salary: 1200000
+},
+{
+   id:11,
+  name : 'Aliko Dangote',
+  img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Aliko_Dangote.jpg/220px-Aliko_Dangote.jpg',
+  company: ' Dangote Group',
+  age: 64,
+  Country: 'Nigeria',
+  salary: 1100000
+},
+{
+  id: 12,
+  name : ' Michael Dell',
+  img:  'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Michael_Dell_2010.jpg/220px-Michael_Dell_2010.jpg',
+  company:  ' Dell Technologies',
+  age:  56,
+  Country:  'USA',
+  salary: 800000
+}
+]
+
+
+const ceod = JSON.stringify(ceo)
+console.log(ceod)

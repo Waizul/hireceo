@@ -1,0 +1,13 @@
+.header {
+    border: 1px solid gray;
+    color: black;
+    background-color: rgba(211, 186, 186, 0.534);
+    line-height: 80%;
+    text-align: center;
+}
+#heading {
+    color: rgb(255, 179, 0)
+}
+#budget {
+    color: rgb(255, 179, 0)
+}
