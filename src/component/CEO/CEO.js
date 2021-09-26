@@ -14,7 +14,7 @@ const CEO = (receive) => {
 			<h3 id ="name">{name}</h3>
 			<p><small>Age: {age}</small></p>
 			<p><small>Company: {company}</small></p>
-			<p><small>Salary: {salary}</small></p>
+			<p><small>Salary: ${salary}</small></p>
             <button onClick={()=>receive.handleCart(receive.ceo)}>{<FontAwesomeIcon icon={faShoppingCart}/>}Pick Your CEO</button>
 			<ul className='icon'>
 				<li>{<FontAwesomeIcon icon={faFacebook}/>}</li>

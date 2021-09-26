@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
-import CartName from '../CartName/CartName';
 import CEO from '../CEO/CEO';
 import './Main.css';
 
@@ -18,20 +17,18 @@ const Main = () => {
         const newCart = [...cart, ceo]
         setCart(newCart)
     }
+	const cartName = cart.map(n=>n.name)
 
 	return (
 		<div className='main'>
-			<div className= 'main-display'>
+			<div className='main-display'>
 				{ceos.map((x) => (
 					<CEO ceo={x} key={x.id} handleCart={handleCart}></CEO>
 				))}
 			</div>
 			<div className='cart'>
-				<h3>Your Pick: {cart.length} </h3>
-				{/* {
-					cart.map(name=><CartName name={name}></CartName>)
-				} */}
-				<Cart cart ={cart}></Cart>
+				{/* <h3>Your Pick: {cart.length} </h3> */}
+				<Cart cart={cart}></Cart>
 			</div>
 		</div>
 	);
